@@ -1,24 +1,17 @@
-# PeriodicTableJasnow
+# periodic_table_jasnow
 
 Provide periodic table data.
 
 ## Installation
 
-Add this line to your application's Gemfile:
-
-    gem 'periodic_table_jasnow'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
     $ gem install periodic_table_jasnow
 
 ## Usage
 
-periodic_table_jasnow ELEMENT
+    require 'periodic_table_jasnow'
+
+    # Lookup data for an element by name.
+    PeriodicTableJasnow.lookup 'oxygen'
 
 ## Contributing
 
